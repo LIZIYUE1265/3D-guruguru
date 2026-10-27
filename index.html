@@ -180,6 +180,9 @@ body.intro #sheet,body.intro #dock,body.intro #keys,body.intro #pins,body.intro 
 #intro h1{font-size:clamp(44px,8.6vw,124px)}
 </style></head><body>
 <div id="load"><div><i></i><p id="lp">パーツを並べています…</p><small>3Dぐるぐる</small></div></div>
+<script>
+window.addEventListener('error',function(e){var l=document.getElementById('lp'),s=document.querySelector('#load small');if(l)l.textContent='読み込みエラー: '+(e.message||'不明');if(s)s.innerHTML='Chromeの設定で「ハードウェア アクセラレーションを使用する」をONにして、再読み込みしてください。<br>(このメッセージをスクリーンショットで送ってください)';var i=document.querySelector('#load i');if(i)i.style.animation='none'});
+</script>
 <div id="bg"><i></i><i></i><i></i></div>
 <div id="stage"><canvas id="gl" aria-label="3Dで見られる自作PC"></canvas></div>
 <div id="pins"></div>
