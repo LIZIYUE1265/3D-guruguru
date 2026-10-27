@@ -1,0 +1,17 @@
+{
+ "name":"3Dぐるぐる — 自作PCを、ひとつずつ。",
+ "short_name":"3Dぐるぐる",
+ "description":"ブラウザだけで遊べる3D自作PC入門",
+ "start_url":"./index.html",
+ "scope":"./",
+ "display":"standalone",
+ "orientation":"any",
+ "background_color":"#e4e4e0",
+ "theme_color":"#e4e4e0",
+ "lang":"ja",
+ "icons":[
+  {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+  {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+  {"src":"icons/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+ ]
+}
